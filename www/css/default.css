@@ -1,0 +1,1146 @@
+body{
+	background-color: #87AEC5;
+	/*background-image: url(images/TizagTiledBackground.gif);*/
+	font-family: arial;
+	font-size: 80%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/BannerTileBackground.gif);
+	background-repeat: repeat-x;
+}
+ h1 { 
+  border-bottom:1px dotted #0A4369;  
+  color:#0A4369;  
+  font-size:180%;  
+  letter-spacing:-2px; 
+  line-height:0.9em; 
+  margin:0px; 
+  padding:15px 10px 0px; 
+  text-transform:lowercase; 
+  word-spacing:1px; 
+  }
+/* old header */
+/*
+h1{
+	/*background-color: #BEC5D8;*/
+	border-bottom: 2px solid #003B62;
+	padding: 3px;
+	/*border-bottom: 4px double black;*/
+	font-size: 150%;
+}*/
+
+h1.subH{
+	
+	/*background-color: #BEC5D8;*/
+	padding: 3px;
+	/*border-bottom: 4px double black;*/
+	
+	font-size: 150%;
+}
+h2.specialT{
+	font-size: 130%;
+	margin: 0px;
+	margin-top: 10px;
+	color: black;
+	font-family: serif;
+}
+
+h5.back{
+	float: left;
+	border: 2px solid #003B62;
+	background-color: #B5CFE0;
+	padding: 7px;
+	margin: 5px;
+	font-family: courier;
+	font-size: 120%;
+}
+
+h5.cont{
+	float: right;
+	border: 2px solid #003B62;
+	background-color: #B5CFE0;
+	padding: 7px;
+	margin: 5px;
+	font-family: courier;
+	font-size: 120%;
+}
+
+p{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-indent: 25px;
+}
+
+p.desc{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-indent: 25px;
+}
+
+div.code{
+	border: 2px solid #003B62;
+	font-family: verdana;
+	background-color: #B5CFE0;
+	padding: 7px;
+	margin: 5px;
+	font-size: 90%;
+}
+
+div.display{
+	border: 2px solid #003B62;
+	font-family: verdana;
+	background-color: #B5CFE0;
+	padding: 7px;
+	margin: 5px;
+}
+
+div.examp{
+	border: 2px solid #003B62;
+	background-color: #B5CFE0;
+	padding: 7px;
+	margin: 5px;
+}
+
+div.examp p{
+	text-indent: 0px;
+}
+
+pre.code{
+	border: 2px solid #003B62;
+	font-family: verdana;
+	background-color: #B5CFE0;
+	padding: 7px;
+	margin: 5px;
+	font-size: 11px;
+}
+
+#examp p{
+	text-indent: 0px;
+}
+#code{
+	border: 2px solid #003B62;
+	background-color: #B5CFE0;
+	padding: 7px;
+	margin: 5px;
+	font-family: courier;
+	font-size: 120%;
+}
+#examp{
+	border: 2px solid #003B62;
+	background-color: #B5CFE0;
+	padding: 7px;
+	margin: 5px;
+}
+#exampSpecialMarginExample{
+	border: 2px solid #003B62;
+	background-color: #B5CFE0;
+	padding: 0px;
+	margin: 5px;
+}
+
+#reference td{
+	text-align: center;
+}
+
+#subref h1{
+	text-transform: capitalize;
+}
+
+table.main{
+	background-color:#D2E7F4;
+	color:black;
+	border:2px solid black;
+	padding: 0px;
+}
+
+table.menu{
+	/*background-color:#87AEC5;*/
+	color:black;
+	width:100%;
+}
+
+table.outter{
+	/*background-color:#87AEC5;*/
+	color:black;
+}
+
+td.menu{
+	width: 140px;
+}
+
+td.banner{
+	background-image: url(../pics/BannerTileBackground.gif);
+	background-repeat: repeat-x;
+}
+
+td.menu{
+	width: 140px;
+	padding:0px;
+	margin: 0px;
+}
+
+img{
+	border:0px;
+}
+
+
+hr{
+	color: #003B62;
+}
+
+strong{
+	font-size: 150%;
+}
+
+a:link, a:visited{
+	font-size:90%;
+	text-decoration: underline;
+	font-weight: 500;
+	color:black;
+}
+a:hover{
+	text-decoration: none;
+	color: #C02020;
+	text-decoration: underline;
+	word-spacing: 0px;
+}
+/* Menu CSS */
+div#menu{
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	font-weight: bold;
+}
+div#menu a:link{
+	text-decoration: none;
+	color:black;
+	display: block;
+}
+div#menu a:visited{
+	text-decoration: none;
+	color:black;
+	display: block;
+}
+div#menu a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: #C02020;
+	text-decoration: underline;
+	display: block;
+}
+
+/* Right Menu CSS **Outdated** */
+div#rightMenu a:link{
+	font-size: 10px;
+	text-decoration: none;
+	color:black;
+	display: block;
+	font-family: Verdana, Arial;
+}
+div#rightMenu a:visited{
+	font-size: 10px;
+	text-decoration: none;
+	color:black;
+	display: block;
+	font-family: Verdana, Arial;
+}
+div#rightMenu a:hover{
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #C02020;
+	text-decoration: underline;
+	display: block;
+}
+
+/* Right Menu CSS Class Form */
+div.rightMenu a:link{
+	font-size: 10px;
+	text-decoration: none;
+	color:black;
+	display: block;
+	font-family: Verdana, Arial;
+}
+div.rightMenu a:visited{
+	font-size: 10px;
+	text-decoration: none;
+	color:black;
+	display: block;
+	font-family: Verdana, Arial;
+}
+div.rightMenu a:hover{
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #C02020;
+	text-decoration: underline;
+	display: block;
+}
+
+/* Forum Insert Styling */
+a.forumTitle{
+	padding: 2px 5px;
+	border: 1px solid #003B62;
+	background-color: #B5CFE0;
+	text-decoration: none;
+}
+
+a.forumTitle:hover{
+	text-decoration: underline;
+	color:red;
+}
+
+div.forumThreads{
+	border: 1px solid #003B62;
+	background-color: #B5CFE0;
+	padding: 4px;
+}
+
+div.forumThreads a{
+	text-decoration: none;
+}
+
+div.forumThreads a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+/*Layout CSS*/
+body.test{
+	text-align:center;
+}
+
+div#container{
+	width: 780px;
+	margin-right:auto;
+	margin-left:auto;
+	padding:0px;
+	text-align:left;
+}
+
+div#banner{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+div#banner p{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#menuPane{
+	width: 140px;
+	float: left;
+	padding-right: 5px;
+}
+
+div#contentPane{
+	width: 485px;
+	float: left;
+	border: 2px solid black;
+	padding: 8px;
+	background-color: #D2E7F4;
+}
+
+div#rightMenuPane{
+	width: 122px;
+	margin-left: 5px;
+	float: right;
+}
+
+/* Google Ads CSS */
+div#googleads{
+	position: absolute;
+	z-index: 0;
+	top: 145px;
+	right: 5px;
+}
+
+div#copyright{
+	width: 100%;
+	text-align:center;
+	clear: left;
+}
+/* HTML Color Chart CSS */
+div.colorBlockContainer{
+	margin: 0;
+	padding: 0;
+	
+}
+span.colorBlock{
+	float: left;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+/* Deprecated Menu CSS Code */
+
+a.menu:link, a.menu:visited{
+	font-size:90%;
+	text-decoration: none;
+	font-weight: 500;
+	color:black;
+}
+a.menu:hover{
+	text-decoration: none;
+	color: #C02020;
+	text-decoration: underline;
+	word-spacing: 0px;
+}
+em.attn{
+	text-decoration: none;
+	font-style: normal;
+	color: red;
+}
+
+/* Navigation */
+ ul#nav {
+list-style-type: none;
+margin: 0;
+padding: .5em 0;
+border-top: 2px solid #003B62;
+}
+
+
+ul#nav li a{
+display: block;
+width: 90px;
+color: #FFF;
+padding: 1px;
+background-color: #003B62;
+text-align: center;
+text-decoration: none;
+border: 2px outset;
+}
+
+ul#nav li a:hover{
+color: #FFF;
+background-color: #87AEC5;
+border: 2px inset;
+}
+
+ul#nav .back { float: left; }
+ul#nav .cont { float: right; }
+
+/*Reference CSS*/
+table.refTable{
+	width: 500px;
+}
+
+#container td{
+	background-color: #B5CFE0;
+	font-size: 12px;
+	padding: 2px;
+}
+
+
+td.compG{
+	background-color: green;
+}
+td.compY{
+	background-color: yellow;
+}
+/*WARNING CRAZY ASS BS BELOW THIS LINE WOOT*/
+
+/*Internal Tutorial CSS */
+p.internWT{
+	background-color: black;
+	color: white;
+	font-size: 100%;
+	margin: 0px;
+	padding: 6px;
+}
+
+/*External Tutorial CSS */
+p.externExamp{
+	color: blue;
+}
+
+h3.externExamp{
+	color: white;
+}
+
+#exampExternExamp{
+	border: 2px solid #003B62;
+	background-color: gray;
+	padding: 5px;
+	margin: 5px;
+}
+
+/*Class Tutorial CSS*/
+p.classFirstA{
+	color: blue;
+}
+
+p.classSecondA{
+	color: red;
+}
+
+p.classTestAll{
+	color: red;
+	font-size: 20px;
+}
+
+p.classTest1{
+	color: blue;
+	font-size: 20px;
+}
+
+p.classTest2{
+	color: red;
+	font-size: 12px;
+}
+/*Background Tutorial CSS*/
+
+h4.bg{
+	background-color: white; 
+}
+
+p.bg{
+	background-color: #1078E1; 
+}
+
+ul.bg{
+	background-color:rgb( 149, 206, 145);
+}
+
+p.bgImage{
+	background-image: url(../pics/cssT/smallPic.jpg);
+	padding: 10px;
+}
+
+h4.bgImage{
+	background-image: url(http://www.tizag.com/pics/cssT/smallPic.jpg) ;
+	padding: 10px;
+}
+
+p.bgImageR{
+	background-image: url(../pics/cssT/smallPic.jpg);
+	background-repeat: repeat;
+}
+h4.bgImageRY{
+	background-image: url(../pics/cssT/smallPic.jpg);
+	background-repeat: repeat-y;
+}
+ol.bgImageRX{
+	background-image: url(../pics/cssT/smallPic.jpg);
+	background-repeat: repeat-x;
+}
+ul.bgImageNR{
+	background-image: url(../pics/cssT/smallPic.jpg);
+	background-repeat: no-repeat;
+}
+
+textarea.bgImageSc{
+	background-image: url(../pics/cssT/smallPic.jpg);
+	background-attachment: fixed; 
+}
+textarea.bgImageNSc{
+	background-image: url(../pics/cssT/smallPic.jpg);
+	background-attachment: scroll; 
+}
+
+p.bgImagePosPx{
+	background-image: url(../pics/cssT/smallPic.jpg);
+	background-position: 20px 2px;
+	background-repeat: no-repeat;
+}
+h4.bgImagePosPer{
+	background-image: url(../pics/cssT/smallPic.jpg);
+	background-position: 30% 10%;
+	background-repeat: no-repeat;
+}
+ol.bgImagePosK{
+	background-image: url(../pics/cssT/smallPic.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+p.bgGradient {
+	background-image: url(http://www.tizag.com/pics/BannerTileBackground.gif);
+	background-repeat: repeat-x;
+}
+
+/* Font Tutorial CSS */
+h4.fontcolor1{
+	color: red;
+}
+
+h5.fontcolor2{
+	color: #9000A1;
+}
+
+h6.fontcolor3{
+	color: rgb(0, 220, 98);
+}
+
+h4.fontfss{
+	font-family: sans-serif;
+}
+
+h5.fontfs{
+	font-family: serif;
+}
+
+h6.fontfa{
+	font-family: arial;
+}
+
+p.fontSPer{
+	font-size: 140%;
+}
+
+ol.fontSPx{
+	font-size: 16px;
+}
+
+ul.fontSKT{
+	font-size: x-large;
+}
+
+p.fontStI{
+	font-style: italic;
+}
+
+h4.fontStO{
+	font-style: oblique;
+}
+
+b.fontWV{
+	font-size: 120%;
+	font-weight: 100;
+}
+ul.fontWKT{
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+p.fontV{
+	font-variant:small-caps;
+}
+
+/*CSS Text Tutorial */
+
+h4.textDL{
+	text-decoration: line-through;
+}
+
+h5.textDO{
+	text-decoration: overline;
+}
+
+h6.textDU{
+	text-decoration: underline;
+}
+
+a.textDN:link, a.textDN:visited, a.textDN:hover{
+	text-decoration: none;
+}
+
+p.textIPx{
+	text-indent: 20px;
+}
+
+h5.textIPer{
+	text-indent: 30%;
+}
+
+p.textAR{
+	text-align: right;
+}
+
+h5.textAJ{
+	text-align: justify;
+}
+
+p.textTC{
+	text-transform: capitalize;
+}
+
+h4.textTU{
+	text-transform: uppercase;
+}
+
+h5.textTL{
+	text-transform: lowercase;
+}
+
+p.whiteN{
+	white-space: nowrap;
+	overflow: scroll;
+	width: 430px;
+}
+
+p.wordPx{
+	word-spacing: 10px;
+}
+
+p.letterPx{
+	letter-spacing: 3px;
+}
+
+/* CSS Margin Tutorial */
+
+p.marginEP{
+	margin: 5px;
+	border: 1px solid black;
+}
+
+h5.marginEH{
+	margin: 0px;
+	border: 1px solid red;
+}
+
+p.marginOPx{
+	margin: 2%;
+	border: 1px solid black;
+}
+
+h5.marginOPer{
+	margin: 0px;
+	border: 1px solid red;
+}
+
+p.marginDir1{
+	margin-left: 5px;
+	border: 1px solid black;
+}
+
+h5.marginDir4{ margin-top: 0px;
+margin-right: 2px;
+margin-bottom: 13px;
+margin-left: 21px;
+border: 1px solid red;
+}
+
+p.marginAll2{
+	margin: 5px 15px;
+	border: 1px solid black;
+}
+
+h5.marginAll4{
+	margin: 0px 5px 10px 3px;
+border: 1px solid red;
+}
+
+/* CSS Padding Tutorial */
+p.paddingEP{
+	padding: 15px;
+	border: 1px solid black;
+}
+
+h5.paddingEH{
+	padding: 0px;
+	border: 1px solid red;
+}
+
+p.paddingOPx{
+	padding: 2%;
+	border: 1px solid black;
+}
+
+h5.paddingOPer{
+	padding: 0px;
+	border: 1px solid red;
+}
+
+p.paddingDir1{
+	padding-left: 5px;
+	border: 1px solid black;
+}
+
+h5.paddingDir4{ padding-top: 0px;
+padding-right: 2px;
+padding-bottom: 13px;
+padding-left: 21px;
+border: 1px solid red;
+}
+
+p.paddingAll2{
+	padding: 5px 15px;
+	border: 1px solid black;
+}
+
+h5.paddingAll4{
+	padding: 0px 5px 10px 3px;
+border: 1px solid red;
+}
+
+/* CSS Border Tutorial */
+
+p.borderSolid{
+	border-style: solid;
+}
+
+p.borderDouble{
+	border-style: double;
+}
+
+p.borderGroove{
+	border-style: groove;
+}
+
+p.borderDotted{
+	border-style: dotted;
+}
+
+p.borderDashed{
+	border-style: dashed;
+}
+
+p.borderInset{
+	border-style: inset;
+}
+
+p.borderOutset{
+	border-style: outset;
+}
+
+p.borderRidge{
+	border-style: ridge;
+}
+
+p.borderHidden{
+	border-style: hidden;
+}
+
+p.borderWK{
+	border-width: thick;
+	border-style: solid;
+}
+
+table.borderWPx{
+	border-width: 7px;
+	border-style: outset;
+}
+
+td.borderWTD{
+	border-width: medium;
+	border-style: outset;
+}
+
+
+p.borderCK{
+	border-color: blue;
+	border-style: solid;
+}
+
+table.borderCRGB{
+	border-color: rgb( 100, 100, 255);
+	border-style: dashed;
+}
+
+td.borderCHex{
+	border-color: #FFBD32;
+	border-style: ridge;
+}
+
+p.borderDB{
+	border-bottom-style: dashed;
+	border-bottom-color: yellow;
+	border-bottom-width: 5px;
+}
+
+h4.borderDT{
+	border-top-style: double;
+	border-top-color: purple;
+	border-top-width: thick;
+}
+
+h5.borderDLB{
+	border-left-style: groove;
+	border-left-color: green;
+	border-left-width: 15px;
+	border-bottom-style: ridge;
+	border-bottom-color: yellow;
+	border-bottom-width: 25px;
+}
+
+p.borderA3{
+	border: 20px outset blue;
+}
+
+h4.borderA2WS{
+	border: 5px solid;
+}
+
+h5.borderA1C{
+	border: dotted;
+}
+
+/* CSS Position Tutorial */
+p.posAbsPx{
+	position: absolute;
+	left: 50px;
+	top: 300px;
+}
+
+p.posRelPx{
+	position: absolute;
+	left: 250px;
+	top: 500px;
+}
+
+p.posStaPx{
+	position: absolute;
+	left: 150px;
+	top: 500px;
+}
+
+/* List Tutorial CSS */
+ul.listsPosI{
+	list-style-position: inside;
+}
+
+ul.listsPosO{
+	list-style-position: outside;
+}
+
+ul.listsImage1{ 
+	list-style-image: url(../pics/cssT/listArrow.gif); 
+} 
+
+ol.listsImage2{ 
+	list-style-image: url(../pics/cssT/listArrow2.gif); 
+}
+
+ul.listsTypeRom
+{
+	list-style-type: upper-roman;
+}
+
+ol.listsTypeDisc
+{
+	list-style-type: circle;
+}
+
+ul.listsAll{
+	list-style: upper-roman inside url("http://www.example.com/notHere.gif");
+}
+
+/* CSS Pseudo Class Tutorial*/
+
+a.pclassA:link, a.pclassA:visited{
+	color: red;
+	text-decoration: underline;
+}
+
+a.pclassA:hover{
+	color: blue;
+	word-spacing: 0px;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+a.pclassB:link, a.pclassB:visited{
+	color: red;
+	text-decoration: none;
+}
+
+a.pclassB:hover{
+	color: blue;
+	word-spacing: 0px;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+a.pclassC:link, a.pclassC:visited{
+color: white; 
+background-color: black;
+text-decoration: none;
+border: 2px solid white;
+font-weight: normal;
+}
+
+a.pclassC:hover{
+color: black; 
+background-color: white;
+text-decoration: none;
+border: 2px solid black;
+font-weight: normal;
+word-spacing: 0px;
+}
+
+a.pclassD:link, a.pclassD:visited{
+color: blue;
+background-color: red;
+font-size: 26px;
+border: 10px outset blue;
+font-family: sans-serif;
+text-transform: lowercase;
+text-decoration: none;
+font-weight: normal;
+}
+
+a.pclassD:hover{
+color: blue;
+background-color: red;
+font-size: 27px;
+border: 10px inset blue;
+font-family: serif;
+text-transform: uppercase;
+text-decoration: line-through;
+letter-spacing: 3px;
+word-spacing: 6px;
+font-weight: normal;
+}
+
+/* CSS Cursor Tutorial*/
+p.cursorWait { cursor: wait; }
+h4.cursorHelp { cursor: help; }
+h5.cursorCross { cursor: crosshair; }
+
+/* CSS Layers Tutorial*/
+h4.layer1{ position: relative; 
+	top: 30px;
+	left: 50px;
+	z-index: 2;
+	background-color: #336699;
+}
+
+p.layer1 { position: relative; 
+	z-index: 1; 
+	background-color: #FFCCCC;
+} 
+
+/* CSS Display Tutorial */
+a.disp1 {
+	display: block;
+}
+
+p.disp1 {
+	display: inline;
+}
+
+p.disp2 {
+	display: block;
+}
+p.disp2hidden{
+	display:none;
+}
+
+/*HTML Tutorials*/
+h1.tags{
+	/*background-color: #BEC5D8;*/
+	border-bottom: 0px solid black;
+	/*border-bottom: 4px double black;*/
+	font-size: 250%;
+}
+
+#but1 {
+	position:absolute;
+	left:676px;
+	top:15px;
+}
+
+a.linksESPN:link{
+	color: blue;
+	text-decoration:underline;
+}
+
+a.linksESPN:visited{
+	color: purple;
+	text-decoration:underline;
+}	
+a.linksESPN:active{
+	color: purple;
+	text-decoration:underline;
+}	
+
+img.linksESPN{
+	border:2px;
+}
+
+img.flash{
+	border: 1px solid black;
+}
+/* CSS Floating Tutorial */
+
+img.floatLeft1{
+	float: left;
+	margin: 5px;
+}
+
+img.floatRight1{
+	float: right;
+	margin: 5px;
+}
+
+img.floatRightClear{
+	float: right;
+	clear: right;
+}
+/* CSS Classes Vs ID Tutorial */
+p#exampleID1 {
+	background-color: white;
+}
+
+p#exampleID2 {
+	text-transform: uppercase;
+}
+
+/* User Submission CSS */
+
+div.userSubmitTable table{
+	background-color: #B2CEDF;
+	border: 1px solid #013C63;
+	padding: 0px;
+}
+
+div.userSubmitTable td{
+	border: 1px solid #013C63;
+	margin: 0px;
+	font-weight: bold;
+	color: #013C63;
+	padding: 4px;
+}
+
+table.userCode{
+}
+
+td.userCodeBox{
+	border: 2px solid #003B62;
+	font-family: verdana;
+	background-color: #B5CFE0;
+	padding: 7px;
+	margin: 5px;
+	font-size: 90%;
+}
+
+
+div.cookieCrumb{
+	border: 2px solid #003B62;
+	background-color: #B5CFE0;
+	padding: 7px;
+	margin: 5px;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+div.cookieCrumb a:link{
+}
+
+div.cookieCrumb a:visited{
+}
+
+div.cookieCrumb a:hover{
+}
+
+div.userTutorialList{
+	font-size: 120%;
+}
+
+div.userTutorialList table{
+	border: 2px solid #003B62;
+	background-color: #B5CFE0;
+	margin: 5px;
+}
+
+div.userTutorialList td{
+	padding: 7px;
+	border: 1px solid #003B62;
+}
+div.userTutorialList th{
+	padding: 7px;
+	border: 1px solid #003B62;
+}
