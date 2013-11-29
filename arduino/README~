@@ -1,0 +1,6 @@
+This Directory and below are for the Web Server Command and management interface to the Autonymous Rover
+All communications between Rover and Command interface are done via queuing in MySQL.
+
+All sensory data is also stored/retrieved via MySQL
+
+
